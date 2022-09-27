@@ -4724,7 +4724,7 @@ textarea.error {
     display: block;
     position: absolute;
     top: 0.55rem;
-    right: 0.75rem;
+    left: 0.75rem;
     font-size: 0.85rem;
     color: #606060;
 }
@@ -6811,6 +6811,20 @@ footer.inverse-text address {
     right: 0 !important;
     text-align: right !important;
 } */
+.dir{
+    direction: ltr !important;
+}
+.end{
+    text-align: end;
+}
+.logo{
+    width: 90px !important;
+}
+@media (max-width: 576px) {
+    .logo{
+        width: 60px !important;
+    }
+}
 .dropdown-menu .dropdown-menu{
     margin-left: 0 !important;
     margin-right: 202px !important;
