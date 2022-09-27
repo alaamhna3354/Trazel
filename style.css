@@ -6795,6 +6795,14 @@ footer.inverse-text address {
     }
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& new &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.logo{
+    width: 90px !important;
+}
+@media (max-width: 576px) {
+    .logo{
+        width: 60px !important;
+    }
+}
   @keyframes logo {
     0% { 
         transform: rotatez(0%);
