@@ -700,7 +700,7 @@ button.hamburger.animate.active:after {
     padding-left: 1.5rem;
     overflow-y: auto;
     visibility: hidden;
-    background: #84b407;
+    background: #84b407b3;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: right, visibility;
@@ -709,6 +709,9 @@ button.hamburger.animate.active:after {
     -moz-background-clip: padding;
     -webkit-background-clip: padding;
     background-clip: padding-box;
+}
+.offcanvas-info *{
+    color: #404040 !important;
 }
 .offcanvas-info.open {
     right: 0;
@@ -1297,7 +1300,10 @@ button.hamburger.animate.active:after {
 }
 footer.dark-wrapper,
 .footer-dark-wrapper {
-    background-color: #84b407 !important;
+    background-color: #84b407bf !important;
+}
+footer.dark-wrapper *{
+    color: #404040 !important;
 }
 .pattern-wrapper {
     background: transparent repeat left top;
@@ -2547,7 +2553,7 @@ figure.overlay img {
 }
 .more:hover,
 .meta a:hover {
-    color: #606060;
+    color: #ef4021;
 }
 .more:after,
 .p-more:after {
@@ -4182,7 +4188,7 @@ video.player {
     color: #404040 !important;
 }
 .inverse-text .social-mute a i {
-    color: var(--color-white) !important;
+    color: #404040 !important;
 }
 .social .jam[class*="500px"],
 .color-s-500px,
@@ -5609,7 +5615,7 @@ pre {
     color: rgba(var(--rgb-brown), 0.25);
 }
 .icon-bg-default {
-    background-color: #acdb07;
+    background-color: #a3c745;
 }
 .icon-bg-dark {
     background-color: rgba(var(--rgb-dark), 0.25);
